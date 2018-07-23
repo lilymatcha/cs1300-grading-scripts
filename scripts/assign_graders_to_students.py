@@ -4,7 +4,6 @@ from random import shuffle
 GRADERS = ['many_blocked', 'some_blocked', 'none_blocked']
 HANDINS_FILENAME = '../submission_lists/example_assignment_submissions.csv'
 OUTPUT_FILENAME = '../grading_assignments/test.csv'
-MAX_ASSIGNMENTS = None # max number of assignments we'll give a TA to grade
 
 def get_complete_handins_list(handins_filename):
 	handins = []
