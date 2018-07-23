@@ -17,7 +17,6 @@ Should you choose to contribute to this repository (good on you!), please triple
 
 Tips and things worth noting:
 
-* You'll notice that in `assign_grading()` we shuffle the list of TA names. This is to avoid bias by making sure that TAs aren't assigned to the same batch of students too many times. We don't shuffle the list of handins, because that way TAs don't have to jump around the list of students on Speedgrader, which can be a semi-annoying process. (We want to minimize TA frustration regarding grading as much as possible.)
 * Blocklists should be separate files because they are private information. TAs shouldn't be able to view one another's blocklists.
 
 ### Running `assign_graders_to_students.py`
@@ -32,3 +31,4 @@ Tips and tricks:
 * You might be tempted to make a CSV with everyone's assignments. I recommend against this. There is sometimes variance in how many assignments each TA has, and you don't want to them to start wondering "Why did I get more than this other TA?" The variance is rarely more than one or two handins, but still, this is something to keep in mind.
 * Consider making a Google Form where TAs can mark down if they're done with grading or not. I recommend a Google Form over a Google Sheet because it's a bit easier for the TAs.
 * Set up a script that automatically sends the Google Form to TAs the day before grading is due to ask if they're done, and if not, when they will be done. Set the options for when they'll be done to just one or two days, and say that if they need more time than that, they must contact the HTAs. This will save you a lot of headaches from hunting down TAs who haven't finished their work, or wondering if they're done. You'll have all the info you need all in a single spreadsheet.
+* You'll notice that in `assign_grading()` we shuffle the list of TA names. This is to avoid bias by making sure that TAs aren't assigned to the same batch of students too many times. We don't shuffle the list of handins, because that way TAs don't have to jump around the list of students on Speedgrader, which can be a semi-annoying process. (We want to minimize TA frustration regarding grading as much as possible.)
