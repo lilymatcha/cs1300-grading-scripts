@@ -15,7 +15,7 @@ Should you choose to contribute to this repository (good on you!), please triple
 1. Ensure you have Python 3 installed.
 2. Make sure the TAs have filled out their blocklists and that you have stored them in `ta_blocklists/`.
 
-Tips and things worth noting:
+#### Tips and things worth noting
 
 * Blocklists should be separate files because they are private information. TAs shouldn't be able to view one another's blocklists.
 
@@ -26,7 +26,7 @@ Tips and things worth noting:
 3. Run `python assign_graders_to_students.py`. Should you get a warning saying that not all students have been assigned to graders, first try running the script again. If that doesn't work, just manually assign the students in the completed file. (This error tends to come up if a TA with a long blocklist happens to be the last in queue to get handins assigned to them.)
 4. Give the TAs their assignments, preferably over email (make sure the subject line is descriptive so they can easily search for it later). Make sure you do this before grading meeting so that no one is waiting on you.
 
-Tips and tricks:
+#### Tips and tricks
 
 * You might be tempted to make a CSV with everyone's assignments. I recommend against this. There is sometimes variance in how many assignments each TA has, and you don't want to them to start wondering "Why did I get more than this other TA?" The variance is rarely more than one or two handins, but still, this is something to keep in mind.
 * Consider making a Google Form where TAs can mark down if they're done with grading or not. I recommend a Google Form over a Google Sheet because it's a bit easier for the TAs.
